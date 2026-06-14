@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { verifyToken } from "../middlewares/AuthMiddleware.js";
+import { verifyToken } from "../middlewares/Authmiddleware.js";
 import {
   getAllContacts,
   getContactsForDmList,

@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { verifyToken } from "../middlewares/AuthMiddleware.js";
+import { verifyToken } from "../middlewares/Authmiddleware.js";
 import { getMessages, uploadFile } from "../controllers/MessagesController.js";
 import multer from "multer";
 
